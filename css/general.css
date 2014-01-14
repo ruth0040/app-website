@@ -40,6 +40,10 @@ button {
 
 }
 
+.p-footer {
+  font-size: .75em;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 26em) {
 .logo {
@@ -55,6 +59,11 @@ button {
 .logo {
   width: 25%;
   margin-bottom: 2%;
+
+}
+
+h1 {
+  margin-top: 0;
 }
 
 }
@@ -68,7 +77,7 @@ button {
 
 h1 {
   font-size: 3.25em;
-  margin-top: 4%;
+  margin-top: 0%;
   margin-bottom: 0;
 }
 
@@ -76,5 +85,11 @@ p {
   font-size: 1.75em;
   margin-top: 1%;
 }
+
+.p-footer {
+  font-size: 1em;
+
+}
+
 
 }
