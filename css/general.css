@@ -1,0 +1,60 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  min-width: 240px;
+  background-color: #c6c6c6;
+  font-size: 100%;
+
+}
+
+.logo {
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+.video {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1.1em;
+  margin-top: 1%;
+}
+
+button {
+  background-color: #111;
+  border-radius: 15px;
+  padding: 5%;
+  font-size: 1.1em;
+  color: white;
+
+}
+
+/* Media Queries */
+@media only screen and (min-width: 26em) {
+.logo {
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+  width: 35%;
+  margin-bottom: 2%;
+}
+
+}
