@@ -52,9 +52,29 @@ button {
 
 @media only screen and (min-width: 38em) {
 
-  .logo {
-  width: 35%;
+.logo {
+  width: 25%;
   margin-bottom: 2%;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.logo {
+  width: 15%;
+  margin-bottom: 1.5%;
+}
+
+h1 {
+  font-size: 3.25em;
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1.75em;
+  margin-top: 1%;
 }
 
 }
