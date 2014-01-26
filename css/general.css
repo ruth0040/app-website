@@ -40,6 +40,40 @@ button {
 
 }
 
+/* Carousel */
+.carousel {
+  position: relative;
+  /* height divided by width gives percent*/
+  padding-bottom: 52.6;
+  margin-top: 6%;
+}
+
+.carousel img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+
+}
+
+.carousel-btn {
+  position: absolute;
+  z-index: 1000;
+}
+
+.carousel [data-state="current"] {
+  z-index: 100;
+}
+
+.carousel [data-state="incoming"] {
+  z-index: 101;
+}
+
+
+/* Footer */
+
+footer {
+  margin-top: 66%;
+}
 .p-footer {
   font-size: .75em;
 }
