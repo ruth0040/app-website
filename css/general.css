@@ -51,12 +51,15 @@ button {
 .carousel img {
   position: absolute;
   left: 0;
-  width: 100%;
+  width: 98%;
+  margin-left: 8px;
 
 }
 
 .carousel-btn {
   position: absolute;
+  margin-left: 8px;
+  display: inline;
   z-index: 1000;
 }
 
