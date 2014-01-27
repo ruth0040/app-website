@@ -6,8 +6,12 @@
 
 html {
   min-width: 240px;
-  background-color: #c6c6c6;
+  background-color: #b3d0f2;
+  font: normal 125%/1.4 helvetica, serif;
   font-size: 100%;
+  background-image:url(../images/pattern.png);
+
+
 
 }
 
@@ -77,9 +81,14 @@ button {
 footer {
   margin-top: 66%;
 }
+hr {
+  background-color: #2051ca;
+  height: 4px;
+}
 .p-footer {
   font-size: .75em;
 }
+
 
 /* Media Queries */
 @media only screen and (min-width: 26em) {
