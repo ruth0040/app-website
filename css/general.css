@@ -38,9 +38,11 @@ p {
 button {
   background-color: #111;
   border-radius: 15px;
-  padding: 5%;
+  padding: 4%;
   font-size: 1.1em;
   color: white;
+  float: right;
+  margin-right: 2%;
 
 }
 
@@ -55,7 +57,7 @@ button {
 .carousel img {
   position: absolute;
   left: 0;
-  width: 98%;
+  width: 98.5%;
   margin-left: 8px;
 
 }
