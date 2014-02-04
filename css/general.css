@@ -44,6 +44,7 @@ button {
 
 .video-img {
   width: 100%;
+  margin-left: -10%;
 }
 
 
@@ -108,10 +109,10 @@ dialog + .backdrop {
 
 .carousel-btn {
   position: absolute;
-  margin-left: 8px;
-  display: inline;
   z-index: 1000;
+  margin: 4% 4%;
 }
+
 
 .carousel [data-state="current"] {
   z-index: 100;
@@ -119,6 +120,11 @@ dialog + .backdrop {
 
 .carousel [data-state="incoming"] {
   z-index: 101;
+}
+
+.spacing {
+  padding-top: 2%;
+  padding-left: 8.5%;
 }
 
 /* Rocket */
