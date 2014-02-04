@@ -1,7 +1,9 @@
 // Carousel items
-
+var $win = $(window);
 var $items = $('.items img');
 var $videoDialog = $('dialog');
+// var $icon = $('.icon img');
+
 dialogPolyfill.registerDialog($videoDialog.get(0));
 
 var switchItem = function (current, incoming) {
@@ -64,3 +66,12 @@ $('.btn-close').on('click', function () {
 });
 
 
+// animating features
+
+
+// $('.features-section').waypoint(function () {
+//   $ships.eq(0).addClass('js-icon-delay-3');
+//   $ships.eq(2).addClass('js-icon-delay-1');
+//   $ships.eq(3).addClass('js-icon-delay-2');
+//   $ships.addClass('js-icon-animate');
+// }, { offset: '60%'});

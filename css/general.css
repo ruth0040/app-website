@@ -13,8 +13,8 @@ html {
 }
 
 .logo {
-  width: 45%;
-  margin-bottom: 2%;
+  width: 20%;
+  margin-right: 2%;
 }
 
 .video {
@@ -23,8 +23,13 @@ html {
 
 h1 {
   font-size: 2.5em;
-  margin-top: 4%;
+  margin-top: 0%;
   margin-bottom: 0;
+}
+
+h2 {
+  color: #FFF;
+  text-align: center;
 }
 
 p {
@@ -145,12 +150,12 @@ dialog + .backdrop {
   position: absolute;
   width: 4px;
   left: 50%;
-/*  margin-left: -20px;
-*/  top: 64px;
+  margin-left: -2px;
+  top: 32px;
   /* Don't forget the rest of the vendor prefixes */
   /*-webkit-transform: rotate(-30deg);*/
-  -webkit-transform-origin: 0% 0px;
-  -webkit-animation: arm-rotate 10s linear infinite;
+  -webkit-transform-origin: 50% 100%;
+  x-webkit-animation: arm-rotate 10s linear infinite;
   /* animation name: rocket-rotate;
   animation-duration: 6s;
   animation-timing-function: linear;
@@ -167,6 +172,40 @@ dialog + .backdrop {
   }
 }
 
+.icon-section {
+  background-color: red;
+  margin-top: 60%;
+  text-decoration: none;
+}
+
+.icon {
+  width: 500px;
+  opacity: 0;
+}
+
+.icon img{
+  width: 50px;
+}
+
+.icon li {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+
+}
+.js-icon-animate {
+    -webkit-animation: icon-fade 1s linear 1 forwards;
+
+}
+
+@-webkit-keyframes icon-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /* Footer */
 
@@ -185,8 +224,8 @@ hr {
 /* Media Queries */
 @media only screen and (min-width: 26em) {
 .logo {
-  width: 45%;
-  margin-bottom: 2%;
+  width: 20%;
+
 }
 
 
@@ -195,8 +234,8 @@ hr {
 @media only screen and (min-width: 38em) {
 
 .logo {
-  width: 25%;
-  margin-bottom: 2%;
+  width: 20%;
+
 
 }
 
@@ -210,7 +249,7 @@ h1 {
 
 .logo {
   width: 15%;
-  margin-bottom: 1.5%;
+
 }
 
 h1 {
