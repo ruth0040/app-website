@@ -115,7 +115,8 @@ dialog + .backdrop {
 .carousel-btn {
   position: absolute;
   z-index: 1000;
-  margin: 4% 4%;
+  width: 4em;
+  margin: 2% 2%;
 }
 
 
