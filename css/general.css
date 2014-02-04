@@ -38,7 +38,6 @@ button {
   padding: 4%;
   font-size: 1.1em;
   color: white;
-  float: right;
   margin-right: 2%;
 
 }
@@ -120,6 +119,46 @@ dialog + .backdrop {
 
 .carousel [data-state="incoming"] {
   z-index: 101;
+}
+
+/* Rocket */
+
+.orbit-section {
+  background-color: #9f221b;
+}
+
+.planet-wrapper {
+  position: relative;
+}
+
+.planet {
+  width: 100px;
+}
+
+.rocket {
+  position: absolute;
+  width: 40px;
+  left: 50%;
+  margin-left: -20px;
+  top: -40px;
+  /* Don't forget the rest of the vendor prefixes */
+  /*-webkit-transform: rotate(-30deg);*/
+  -webkit-transform-origin: 50% 90px;
+  -webkit-animation: rocket-rotate 6s linear infinite;
+  /* animation name: rocket-rotate;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite: SE;
+  */
+}
+
+@-webkit-keyframes rocket-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
 }
 
 
