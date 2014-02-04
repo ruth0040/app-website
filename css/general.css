@@ -137,14 +137,14 @@ dialog + .backdrop {
 
 .arm {
   position: absolute;
-  width: 15px;
+  width: 4px;
   left: 50%;
-  margin-left: -20px;
-  top: 40px;
+/*  margin-left: -20px;
+*/  top: 64px;
   /* Don't forget the rest of the vendor prefixes */
   /*-webkit-transform: rotate(-30deg);*/
-/*  -webkit-transform-origin: 50% 90px;
-*/  -webkit-animation: arm-rotate 6s linear infinite;
+  -webkit-transform-origin: 0% 0px;
+  -webkit-animation: arm-rotate 10s linear infinite;
   /* animation name: rocket-rotate;
   animation-duration: 6s;
   animation-timing-function: linear;
