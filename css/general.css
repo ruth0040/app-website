@@ -174,7 +174,7 @@ dialog + .backdrop {
 }
 
 .icon-section {
-  margin-top: 60%;
+  margin-top: 65%;
   text-decoration: none;
 }
 
@@ -188,12 +188,12 @@ section h2 {
   opacity: 0;
 }
 li {
-  padding: 4%;
+  padding: 2% 4%;
 }
 
 .icon img{
   width: 100px;
-  padding: 4% 2%;
+  padding: 2% 4%;
 }
 
 .icon li {
@@ -245,7 +245,7 @@ dd {
 /* Footer */
 
 footer {
-  margin-top: 66%;
+  margin-top: 5%;
 }
 hr {
   background-color: #2051ca;
