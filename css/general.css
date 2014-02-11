@@ -174,27 +174,37 @@ dialog + .backdrop {
 }
 
 .icon-section {
-  background-color: red;
   margin-top: 60%;
   text-decoration: none;
 }
 
+section h2 {
+  font-size: 2em;
+}
+
 .icon {
-  width: 500px;
+  width: 80%;
+  padding-left: 10%;
   opacity: 0;
+}
+li {
+  padding: 4%;
 }
 
 .icon img{
   width: 100px;
+  padding: 4% 2%;
 }
 
 .icon li {
   color: #fff;
   text-align: center;
   display: inline-block;
-
-
 }
+li p {
+  font-size: 1.5em;
+}
+
 .js-icon-animate {
     -webkit-animation: icon-fade 1s linear 1 forwards;
 
