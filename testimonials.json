@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Julie Berry's Testimonial",
+    "stars": "5 Stars",
+    "para": "This is a great app! I love using it as it is very simple to navigate."
+  },
+
+  {
+    "name": "David Wilmont's Testimonial",
+    "stars": "5 Stars",
+    "para": "A fantastic and useful idea for an app, it is featured on my home page as it is very useful to me!"
+  },
+
+  {
+    "name": "Donna McKay's Testimonial",
+    "stars": "4.5 Stars",
+    "para": "I found this app to be excellent as I can now keep track of my volunteer hours, they add up quickly!"
+  }
+]
