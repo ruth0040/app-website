@@ -185,13 +185,14 @@ dialog + .backdrop {
 }
 
 .icon img{
-  width: 50px;
+  width: 100px;
 }
 
 .icon li {
   color: #fff;
   text-align: center;
   display: inline-block;
+
 
 }
 .js-icon-animate {
