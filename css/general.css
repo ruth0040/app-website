@@ -185,12 +185,12 @@ section h2 {
 }
 
 .icon {
-  width: 100%;
+  width: 80%;
   opacity: 0;
-  margin-left: -10%;
+  padding-left: 10%;
 }
 li {
-  padding: 2% 4%;
+  padding: 2% 3.5%;
 }
 
 .icon img{
