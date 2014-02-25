@@ -48,7 +48,7 @@ button {
 }
 
 .video-img {
-  width: 100%;
+  width: 105%;
   margin-left: -10%;
 }
 
@@ -88,7 +88,7 @@ dialog + .backdrop {
 }
 
 .btn-open {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #fff;
   text-decoration: none;
   margin-left: 10%;
@@ -108,7 +108,7 @@ dialog + .backdrop {
   position: absolute;
   left: 0;
   width: 98.5%;
-  margin-left: 8px;
+  margin-left: 2px;
 
 }
 
@@ -130,7 +130,8 @@ dialog + .backdrop {
 
 .spacing {
   padding-top: 2%;
-  padding-left: 8.5%;
+  padding-left: 10%;
+  width: 10%;
 }
 
 /* Rocket */
@@ -144,15 +145,15 @@ dialog + .backdrop {
 }
 
 .timer {
-  width: 100px;
+  width: 50px;
 }
 
 .arm {
   position: absolute;
-  width: 4px;
-  left: 50%;
-  margin-left: -2px;
-  top: 32px;
+  width: 2px;
+  left: 74.5%;
+  margin-left: 0px;
+  top: 19px;
   /* Don't forget the rest of the vendor prefixes */
   /*-webkit-transform: rotate(-30deg);*/
   -webkit-transform-origin: 50% 100%;
@@ -176,24 +177,25 @@ dialog + .backdrop {
 .icon-section {
   margin-top: 65%;
   text-decoration: none;
+
 }
 
 section h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .icon {
-  width: 80%;
-  padding-left: 10%;
+  width: 100%;
   opacity: 0;
+  margin-left: -10%;
 }
 li {
   padding: 2% 4%;
 }
 
 .icon img{
-  width: 100px;
-  padding: 2% 4%;
+  width: 40px;
+  padding: 2% 2%;
 }
 
 .icon li {
@@ -202,7 +204,7 @@ li {
   display: inline-block;
 }
 li p {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .js-icon-animate {
@@ -225,7 +227,7 @@ li p {
   color: #000;
   padding: 2% 2%;
   width: 94%;
-  margin-left: 8px;
+  margin-left: 2px;
 }
 
 .testimonials-name {
